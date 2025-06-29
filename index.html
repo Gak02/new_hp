@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>居酒屋 さくら - 伝統と新鮮さが融合する本格和食</title>
+    <link rel="icon" type="image/x-icon" href="images/logo/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- ヘッダー -->
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <h1>居酒屋 さくら</h1>
+                    <p>地元の味 × 旬の食材</p>
+                </div>
+                <nav class="pc-nav">
+                    <ul>
+                        <li><a href="#about">当店について</a></li>
+                        <li><a href="#menu">メニュー</a></li>
+                        <li><a href="#reservation">ご予約</a></li>
+                        <li><a href="#access">アクセス</a></li>
+                    </ul>
+                </nav>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+
+        <!-- モバイルメニュー -->
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#about">当店について</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#reservation">ご予約</a></li>
+                <li><a href="#access">アクセス</a></li>
+            </ul>
+        </nav>
+
+        <!-- メインビジュアル -->
+        <div class="main-visual">
+            <div class="main-visual-content">
+                <h2>伝統と新鮮さが融合する<br>本格和食の世界へ</h2>
+                <p>旬の素材と熟練の技が織りなす至福のひととき</p>
+                <a href="#reservation" class="btn-primary">ご予約はこちら</a>
+            </div>
+        </div>
+
+        <!-- お知らせ -->
+        <section class="news">
+            <div class="container">
+                <div class="news-item">
+                    <span class="news-badge">NEW</span>
+                    <p>ホームページをリニューアルオープンしました</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 当店について -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">昭和レトロな空間で味わう本格和食</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>懐かしさを感じる昭和レトロな空間と、気さくで元気なスタッフたち。</p>
+                        <p>直送の旬の新鮮な海の幸と、地元を代表する郷土料理でたくさんのお客様を歓迎しております。</p>
+                        <p>山々に囲まれた当地は自然を活かした独特の食文化があります。漬物ステーキやほうば味噌をはじめ地元に愛される郷土料理をたくさん取り揃えております。</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/interior/interior-main.jpg" alt="店内の様子">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 料理の特徴 -->
+        <section class="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>四季を感じる料理</h3>
+                        <p>春には桜、夏には緑、秋には紅葉、冬は雪景色と四季を感じる土地だからこそ、その時でしか味わえない料理を堪能していただきます。</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-fish"></i>
+                        </div>
+                        <h3>新鮮な海鮮料理</h3>
+                        <p>近海から新鮮な魚を毎日仕入れているため海鮮系の料理も多く、常に新鮮な海鮮料理を用意しております。</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-wine-bottle"></i>
+                        </div>
+                        <h3>地酒のラインナップ</h3>
+                        <p>地酒を10種類以上取り揃え、季節ごとにおすすめの銘柄もラインナップ。自分好みの強さに調整できるお酒も豊富にご用意しています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- メニュー -->
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">メニューのご案内</h2>
+                <div class="menu-tabs">
+                    <button class="menu-tab active" data-target="food">お料理</button>
+                    <button class="menu-tab" data-target="drink">お飲み物</button>
+                    <button class="menu-tab" data-target="course">コース</button>
+                </div>
+                <div class="menu-content">
+                    <div class="menu-group active" id="food">
+                        <div class="menu-category">
+                            <h3>名物料理</h3>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/food/tsukemono-steak.jpg" alt="漬物ステーキ">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>漬物ステーキ</h4>
+                                        <p>地元特産の漬物を使った当店自慢の一品</p>
+                                    </div>
+                                    <div class="menu-item-price">980円</div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/food/hoba-miso.jpg" alt="ほうば味噌">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>ほうば味噌</h4>
+                                        <p>朴葉の上で焼き上げる香り豊かな郷土料理</p>
+                                    </div>
+                                    <div class="menu-item-price">780円</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <h3>刺身・海鮮</h3>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/food/sashimi-platter.jpg" alt="鮮魚のお造り盛り合わせ">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>鮮魚のお造り盛り合わせ</h4>
+                                        <p>その日仕入れた新鮮な魚を使用</p>
+                                    </div>
+                                    <div class="menu-item-price">1,580円</div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/food/aburi-saba.jpg" alt="炙り〆鯖">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>炙り〆鯖</h4>
+                                        <p>香ばしく炙った〆鯖の一品</p>
+                                    </div>
+                                    <div class="menu-item-price">880円</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-group" id="drink">
+                        <div class="menu-category">
+                            <h3>地酒</h3>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <div class="menu-item-content">
+                                        <h4>地酒飲み比べセット</h4>
+                                        <p>厳選した3種類の地酒を飲み比べ</p>
+                                    </div>
+                                    <div class="menu-item-price">1,200円</div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-item-content">
+                                        <h4>季節の限定酒</h4>
+                                        <p>季節ごとに変わる厳選地酒</p>
+                                    </div>
+                                    <div class="menu-item-price">780円〜</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-category">
+                            <h3>その他ドリンク</h3>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <div class="menu-item-content">
+                                        <h4>生ビール</h4>
+                                        <p>キンキンに冷えた一杯</p>
+                                    </div>
+                                    <div class="menu-item-price">580円</div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-item-content">
+                                        <h4>梅酒各種</h4>
+                                        <p>ロック・水割り・ソーダ割りからお選びいただけます</p>
+                                    </div>
+                                    <div class="menu-item-price">550円〜</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-group" id="course">
+                        <div class="menu-category">
+                            <h3>宴会コース</h3>
+                            <div class="menu-items">
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/menu/course-sakura.jpg" alt="さくら宴会コース">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>さくら宴会コース</h4>
+                                        <p>当店自慢の料理を堪能できる人気コース (2時間飲み放題付き)</p>
+                                    </div>
+                                    <div class="menu-item-price">4,000円</div>
+                                </div>
+                                <div class="menu-item">
+                                    <div class="menu-item-image">
+                                        <img src="images/menu/course-tokusen.jpg" alt="特選宴会コース">
+                                    </div>
+                                    <div class="menu-item-content">
+                                        <h4>特選宴会コース</h4>
+                                        <p>厳選した高級食材を使用した特別コース (2時間飲み放題付き)</p>
+                                    </div>
+                                    <div class="menu-item-price">6,000円</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="menu-note">※3名様から最大60名様までの団体様もご利用いただけます。</p>
+                        <p class="menu-note">※ご予算に合わせてコース内容をアレンジ可能です。お気軽にご相談ください。</p>
+                    </div>
+                </div>
+                <div class="menu-more">
+                    <a href="#" class="btn-secondary">メニュー一覧を見る</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ご予約 -->
+        <section id="reservation" class="reservation">
+            <div class="container">
+                <h2 class="section-title">ご予約</h2>
+                <div class="reservation-content">
+                    <div class="reservation-text">
+                        <p>ご予約はお電話またはインターネットから承っております。</p>
+                        <p>お席のみのご予約、宴会コースのご予約など、お気軽にお問い合わせください。</p>
+                        <div class="reservation-tel">
+                            <i class="fas fa-phone"></i> <a href="tel:0123-456-789">0123-456-789</a>
+                        </div>
+                        <p class="reservation-hours">営業時間: 17:00〜23:00 (L.O. 22:30)</p>
+                        <p class="reservation-closed">定休日: 月曜日（祝日の場合は営業）</p>
+                    </div>
+                    <div class="reservation-form">
+                        <form id="reservationForm">
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="tel">電話番号</label>
+                                <input type="tel" id="tel" name="tel" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="date">ご予約日</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">ご予約時間</label>
+                                <select id="time" name="time" required>
+                                    <option value="">選択してください</option>
+                                    <option value="17:00">17:00</option>
+                                    <option value="17:30">17:30</option>
+                                    <option value="18:00">18:00</option>
+                                    <option value="18:30">18:30</option>
+                                    <option value="19:00">19:00</option>
+                                    <option value="19:30">19:30</option>
+                                    <option value="20:00">20:00</option>
+                                    <option value="20:30">20:30</option>
+                                    <option value="21:00">21:00</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="people">人数</label>
+                                <input type="number" id="people" name="people" min="1" max="60" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">備考</label>
+                                <textarea id="message" name="message" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn-primary">予約を確認する</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- アクセス -->
+        <section id="access" class="access">
+            <div class="container">
+                <h2 class="section-title">アクセス</h2>
+                <div class="access-content">
+                    <div class="access-map">
+                        <!-- Google Maps埋め込み（実際のAPIキーを使用する必要があります） -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7479754683745!2d139.7670516!3d35.6811673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1625127863576!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <div class="access-info">
+                        <div class="access-info-item">
+                            <h3><i class="fas fa-map-marker-alt"></i> 住所</h3>
+                            <p>〒123-4567 ○○県○○市○○町1-2-3</p>
+                        </div>
+                        <div class="access-info-item">
+                            <h3><i class="fas fa-subway"></i> 最寄り駅</h3>
+                            <p>○○駅から徒歩5分</p>
+                        </div>
+                        <div class="access-info-item">
+                            <h3><i class="fas fa-car"></i> 駐車場</h3>
+                            <p>店舗前に5台分の駐車スペースあり</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SNS -->
+        <section class="sns">
+            <div class="container">
+                <h2 class="section-title">SNSでも情報発信中</h2>
+                <div class="sns-icons">
+                    <a href="#" class="sns-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="sns-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="sns-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="sns-text">最新のメニューや店内の様子を随時更新しています。<br>フォローして最新情報をチェックしてください！</p>
+            </div>
+        </section>
+
+        <!-- フッター -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <h3>居酒屋 さくら</h3>
+                        <p>地元の味 × 旬の食材</p>
+                    </div>
+                    <div class="footer-info">
+                        <p>〒123-4567 ○○県○○市○○町1-2-3</p>
+                        <p>TEL: <a href="tel:0123-456-789">0123-456-789</a></p>
+                        <p>営業時間: 17:00〜23:00 (L.O. 22:30)</p>
+                        <p>定休日: 月曜日（祝日の場合は営業）</p>
+                    </div>
+                    <div class="footer-nav">
+                        <ul>
+                            <li><a href="#about">当店について</a></li>
+                            <li><a href="#menu">メニュー</a></li>
+                            <li><a href="#reservation">ご予約</a></li>
+                            <li><a href="#access">アクセス</a></li>
+                            <li><a href="#">プライバシーポリシー</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2025 居酒屋 さくら All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ページトップへ戻るボタン -->
+        <div class="page-top">
+            <a href="#"><i class="fas fa-chevron-up"></i></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
